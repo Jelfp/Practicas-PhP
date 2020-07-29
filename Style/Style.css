@@ -1,0 +1,128 @@
+* {
+    font-family: 'Courier Prime';
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/Artistic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    position:absolute;
+}
+
+.Grid__container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(4,minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    position: relative;
+   
+
+    
+}
+.User__login {
+    grid-column: 2/4;
+    grid-row: 1/4 ;
+    position: relative;
+    width: 27rem;
+    height: 34.375rem;
+    background: #fff;
+    margin: auto;
+    box-shadow: rgba(0,0,0,45);
+    border-radius: 0.625rem;
+    align-self: center;
+    justify-self: center;
+    
+   
+  
+}
+.User__login h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 4rem;
+    
+}
+.User__data{
+    position: relative;
+    margin: 2rem;
+}
+.User__in{
+  
+    width: 80%;
+    padding: 10px;
+    margin: 1rem 0.3rem 0.3125rem 1rem;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    
+}
+.User__in:hover{
+    border-bottom: 1.8px solid black;
+    transition: .7s;
+
+}
+.Button__box{
+    
+    box-shadow: 0 0 20 9 #ff61241f;
+    border-radius: 1.875rem;
+    margin: 10% 25% 0% 25%;
+    position:relative;
+    
+}
+.Button__submit{
+    position: relative; 
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 0.625rem 1.375rem;
+    text-align: center;
+    left:    20%;
+    right: 0%;
+    margin-bottom: 0%;
+    
+   
+ 
+ }
+ #Button__style{
+    position: relative;
+    background: linear-gradient(to right, rgba(183,222,237,1) 5%, rgba(142,213,238,1) 26%, rgba(113,206,239,1) 41%, rgba(33,180,226,1) 99%, rgba(183,222,237,1) 100%);
+    border-radius: 1.875rem;
+    right: 0 ;
+    left: 0; 
+    bottom: 0;
+   
+}
+
+#Button__style:hover{
+    background: linear-gradient(to right, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 2%, rgba(142,213,238,1) 13%, rgba(113,206,239,1) 24%, rgba(33,180,226,1) 99%, rgba(183,222,237,1) 100%);
+    transition: 7s;
+}
+.User__gender{
+    height: auto;
+    position: relative;
+    position:relative;
+    margin: 10% 22% 15% 25%;
+    text-align: center;
+}
+.User__gender input{
+    cursor: pointer;
+    text-align: center;
+}
+.success h3{
+    margin-top: 0%;
+    margin-right: 0%;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(25, 190, 10);
+}
+#icon__color{
+    color: red;
+}
